@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import CustomComponent from './components/custom-component/CustomComponent.js';
 import logo from './logo.svg';
 import './App.css';
 
@@ -11,6 +12,10 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
+          <CustomComponent
+            title="Custom component title"
+            content="Custom component content"
+          />
           <a
             className="App-link"
             href="https://reactjs.org"

@@ -1,0 +1,17 @@
+.custom-component {
+  margin-bottom: 30px;
+  padding: 20px;
+
+  border-radius: 30px;
+  background-color: white;
+
+  &__title {
+    margin: 10px;
+
+    color: #4c91ff;
+  }
+
+  &__content {
+    color: #488effc9
+  }
+}
